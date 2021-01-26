@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 71b23489ac54cbeb30c041e7cf98ad5bce52249cec9e06a223e3c027796f102f
+-- hash: 14a1e76fc87a367900c6cb8676ce16ae9b434cef3de9642b849ffceac8a336ec
 
 name:           TypeInferenceTree
 version:        0.1.0.0
@@ -30,6 +30,8 @@ library
       AST
       Latex
       Lib
+      Typing
+      UnionFind
   other-modules:
       Paths_TypeInferenceTree
   hs-source-dirs:
